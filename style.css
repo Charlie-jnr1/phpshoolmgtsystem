@@ -583,9 +583,10 @@
 
     .showcase-display{
         z-index: 3;
+        height: 100vh;
         color: #f5fffa67;
         padding: 25px 0;
-        margin: 50px auto;
+        margin: 55px auto;
         overflow: visible;
       
       }
