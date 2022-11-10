@@ -101,12 +101,12 @@
 .showcase-button a{
     display: inline-block;
     margin: 25px 10px;
-    width: 100px;
+    width: 100%;
     height: 100%;
     border: 1px solid whitesmoke;
     border-radius: 3px;
     text-decoration: none;
-    padding: 7px;
+    padding: 8px;
     text-align: center;
     letter-spacing: 3px;
     color: whitesmoke;
@@ -195,7 +195,7 @@
     display: flex;
     }
     .rightside{
-        padding: 50px 0;
+        padding: 28px 0;
     }
     .rightside p{
         padding: 10px 30px;
@@ -439,7 +439,7 @@
         background: #fff;
         width: 260px;
         height: 450px;
-        margin-top: 50px;
+        margin: 0 auto;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
         padding: 0 10px;
         transition: 0.6s ease;
@@ -466,10 +466,10 @@
     }
 
     .card1 .card-button a{
-        display: block;
+        display: inline-block;
         width: 100%;
         height: 40px;
-        padding: 10px 10px;
+        padding: 10px;
         background: #000;
         color: white;
         letter-spacing: 2px;
@@ -499,7 +499,7 @@
         gap: 5rem;
         justify-content: center;
         align-items: center;
-        padding: 30px 10px; 
+        padding: 20px 0;
     }
 
     .letter .letter1 input{
@@ -595,23 +595,23 @@
         z-index: 3;
         color: #f5fffa67;
         padding: 25px 0;
-        margin: 80px auto;
+        margin: 40px auto;
         overflow: visible;
         
       }
       .showcase-text h2{
           padding: 10px 10px;
-          font-size: 35px;
+          font-size: 30px;
       }
       
       .showcase-text h3{
           padding: 10px 10px;
-          font-size: 30px;
+          font-size: 26px;
       }
 
       
       .showcase-button a{
-          display: inline-block;
+          display: block;
           width: 100px;
           height: 100%;
           border: 1px solid whitesmoke;
@@ -621,7 +621,8 @@
           text-align: center;
           letter-spacing: 3px;
           color: whitesmoke;
-          transition: 1.5s ease-in-out;
+          background-color: seagreen;
+          transition: 0.5 ease;
       }
       
       .showcase-button a:hover{
@@ -659,7 +660,26 @@
             align-content: center;
         }
 
-         
+        
+        .values h2{
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+          
+    
+        .icons h1{
+            padding: 0 15px;
+        }
+    
+        
+        .icons i{
+            position: absolute;
+            margin: 5px -30px;
+            font-size: 35px;
+            color: green;
+        }
+        
      /* end of values */
 
      /* news section */
@@ -688,8 +708,9 @@
      
     .card1{
         background: #fff;
-        width: 450px;
+        width: 350px;
         height: 400px;
+        margin-top: 60px;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
         transition: 0.6s ease;
         
@@ -699,16 +720,246 @@
 
      .card1 .card-image img{
         padding: 10px 10px;
-        width: 400px;
+        width: 325px;
         height: 200px;
         
     }
 
+    
     .card1 .card-tit a{
         padding: 0 10px;
     }
 
 
+    .card1 .card-post p{
+        padding: 10px 10px;
+    }
+    
+     /* end card area */
+
+
+        /* news-letter area */
+     .news-letter{
+        background: seagreen;
+        max-height: 150px;
+        overflow: hidden;
+
+        }
+
+        .letter .letter1 input{
+            color: black;
+            width: 250px;
+            background-color: white;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+        
+        }
+
+        .letter{
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            gap: 1px;
+            padding: 25px 0;
+            margin-bottom: 20px;
+            
+        }
+
+        .letter p{
+            font-size: 25px;
+        }
+        
+        
+
+    /* news letter section */
+}
+
+
+
+@media only screen and (min-width : 300px) and (max-width : 400px) {
+    .navbar{
+        display: block!important;
+        background: rgba(0,0,0,1);
+
+    }
+    .canvas{
+        background: rgba(0,0,0,0.7);
+    }
+
+    
+    .canvas .nav-item a{
+        padding-left: 30px;
+        color: #000;
+    }
+    .title{
+        display: flex;
+        justify-content:space-between ;
+        color: #fff;
+
+    }
+    
+
+
+    .title .navbar-brand{
+     color: #fff;
+    }
+
+    .title .navbar-brand:hover{
+        color: #ffff;
+
+    }
+
+
+    .showcase1{
+        display: none;
+    }
+
+    /* showcase main area */
+
+    .showcase-display{
+        z-index: 3;
+        color: #f5fffa67;
+        padding: 25px 0;
+        margin: 55px auto;
+        overflow: visible;
+        
+      }
+      .showcase-text h2{
+          padding: 10px 10px;
+          font-size: 20px;
+      }
+      
+      .showcase-text h3{
+          padding: 10px 10px;
+          font-size: 20px;
+      }
+
+      
+      .showcase-button a{
+          display: block;
+          width: 100px;
+          height: 100%;
+          border: 1px solid whitesmoke;
+          border-radius: 3px;
+          text-decoration: none;
+          padding: 1px;
+          text-align: center;
+          letter-spacing: 3px;
+          color: whitesmoke;
+          background-color: seagreen;
+          transition: 0.5 ease;
+      }
+      
+      .showcase-button a:hover{
+        background:#f5fffa67;
+        color: white;
+      }
+
+
+
+    /* showcase main area end */
+
+
+    /* grid-section */
+    .grid-content{
+        display: grid;
+        padding: 20px 20px;
+        grid-template-columns: auto;
+        gap: 40px;
+        margin: 30px 0;
+     }
+     
+    /* end of grid section */
+
+     /* our mission section */
+
+     .leftside{
+        display: none;
+     }
+
+     .rightside{
+        padding: 5px 0;
+    }
+    .rightside p{
+        padding: 5px 10px;
+    }
+
+
+     /* end of our mission section */
+
+     /* values */
+        .core-values{
+            flex-direction: column;
+            align-content: center;
+        }
+
+         
+     /* end of values */
+
+     /* news section */
+
+     .news-items{
+        grid-template-columns: auto;
+     }
+     /* end of news section */
+
+
+
+     /* program section */
+     .programs{
+        background: #ffff;
+        width: 100%;
+        padding: 20px 5px;
+        
+    
+     }
+    
+     
+
+     /* end of program section */
+     
+     
+     
+     /* card area */
+     .discover{
+        background: linear-gradient(rgba(2,100,0,0.6), rgba(0,0,0,0.8)), url(images/photo-1616512659455-111d3367649f.jpg) center/ cover no-repeat;
+        width: 100%;
+        height: 1940px;
+        overflow: visible;
+    }
+    
+
+     .container-items{
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+        overflow: hidden;
+     }
+    
+     
+    .card1{
+        background: #fff;
+        width: 250px;
+        height: 450px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+        transition: 0.6s ease;
+        
+
+    }
+
+
+     .card1 .card-image img{
+        padding: 10px 10px;
+        width: 225px;
+        height: 200px;
+        
+    }
+
+    .card1 .card-tit a{
+        padding: 0 5px;
+    }
+    .card1 .card-button a{
+        width: 220px;
+    }
     .card1 .card-post p{
         padding: 10px 10px;
     }
@@ -747,26 +998,4 @@
         
 
     /* news letter section */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
