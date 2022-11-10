@@ -820,18 +820,18 @@
         z-index: 3;
         color: #f5fffa67;
         padding: 25px 0;
-        margin: 55px auto;
+        margin: 45px auto;
         overflow: visible;
         
       }
       .showcase-text h2{
           padding: 10px 10px;
-          font-size: 20px;
+          font-size: 30px;
       }
       
       .showcase-text h3{
           padding: 10px 10px;
-          font-size: 20px;
+          font-size: 25px;
       }
 
       
@@ -893,7 +893,25 @@
             align-content: center;
         }
 
-         
+        .values h2{
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+          
+    
+        .icons h1{
+            padding: 0 10px;
+        }
+    
+        
+        .icons i{
+            position: absolute;
+            margin: 5px -35px;
+            font-size: 35px;
+            color: green;
+        }
+       
      /* end of values */
 
      /* news section */
