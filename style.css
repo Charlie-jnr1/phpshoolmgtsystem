@@ -449,9 +449,10 @@
         background: #fff;
         width: 260px;
         height: 450px;
+        border: 1px solid white ;
         margin: 0 auto;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
-        padding: 0 10px;
+        padding: 0 7px;
         transition: 0.6s ease;
 
     }
@@ -473,6 +474,7 @@
 
     .card1 .card-post p{
         padding: 5px 0;
+        width: 100%;
     }
 
     .card1 .card-button a{
@@ -491,7 +493,6 @@
     .card1:hover{
     background: linear-gradient(rgba(2,100,0,0.6), rgba(40, 40, 40, 0.8));
     color: white;
-    border: 1px solid white;
     }
 /* end of discover section */
 
@@ -500,6 +501,7 @@
         background: seagreen;
         max-height: 100px;
         overflow: hidden;
+
         }
 
     .letter{
@@ -722,8 +724,8 @@
     .card1{
         background: #fff;
         width: 350px;
-        height: 400px;
-        margin-top: 60px;
+        height: 420px;
+        margin-top: 40px;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
         transition: 0.6s ease;
         
@@ -740,7 +742,7 @@
 
     
     .card1 .card-tit a{
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
 
@@ -916,7 +918,7 @@
       
 
     .icons h1{
-        padding: 0 20px;
+        padding: 0 5px;
     }
     .icons{
         flex-direction: column;
@@ -972,10 +974,11 @@
      
     .card1{
         background: #fff;
-        width: 250px;
+        width: 280px;
         height: 450px;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
         transition: 0.6s ease;
+        padding: 0 10px;
         
 
     }
@@ -983,7 +986,7 @@
 
      .card1 .card-image img{
         padding: 10px 10px;
-        width: 225px;
+        width: 255px;
         height: 200px;
         
     }
@@ -992,7 +995,7 @@
         padding: 0 5px;
     }
     .card1 .card-button a{
-        width: 220px;
+        width: 250px;
     }
     .card1 .card-post p{
         padding: 10px 10px;
