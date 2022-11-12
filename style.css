@@ -10,6 +10,7 @@
 .container1{
     max-width: 1200px;
     margin: 0 30px;
+    overflow: hidden;
 }
 /* showcase */
 .navbar{
@@ -219,6 +220,7 @@
     .core-values{
         display: flex;
         margin: 20px auto;
+        align-content: space-between;
         letter-spacing: 2px;
     }
 
@@ -244,21 +246,29 @@
 
     .icons h1{
         font-size: 20px;
-        padding: 0 30px;
+        float: right;
+        text-align: center;
         color: darkgray;
+        padding: 0 10px;
     }
 
     .icons h2{
         font-size: 20px;
-        padding: 0 30px;
+        text-align: center;
         color: darkgreen;
     }
 
+    .icons{
+        display: flex;
+    }
+
+
+
     .icons i{
-        position: absolute;
-        margin: 5px -25px;
+    
         font-size: 35px;
         color: green;
+
     }
     
 /* end values section */
@@ -595,18 +605,18 @@
         z-index: 3;
         color: #f5fffa67;
         padding: 25px 0;
-        margin: 40px auto;
+        margin: 30px auto;
         overflow: visible;
         
       }
       .showcase-text h2{
           padding: 10px 10px;
-          font-size: 30px;
+          font-size: 35px;
       }
       
       .showcase-text h3{
           padding: 10px 10px;
-          font-size: 26px;
+          font-size: 28px;
       }
 
       
@@ -614,10 +624,11 @@
           display: block;
           width: 100px;
           height: 100%;
+          margin: 10px 0;
           border: 1px solid whitesmoke;
           border-radius: 3px;
           text-decoration: none;
-          padding: 2px;
+          padding: 3px;
           text-align: center;
           letter-spacing: 3px;
           color: whitesmoke;
@@ -657,7 +668,7 @@
      /* values */
         .core-values{
             flex-direction: column;
-            align-content: center;
+            text-align: center;
         }
 
         
@@ -665,17 +676,19 @@
             text-align: center;
             margin-top: 20px;
         }
-    
+
+        
           
     
         .icons h1{
-            padding: 0 15px;
+            padding: 0 20px;
         }
-    
+        .icons{
+            flex-direction: column;
+        }
         
         .icons i{
-            position: absolute;
-            margin: 5px -30px;
+            padding: 15px 0;
             font-size: 35px;
             color: green;
         }
@@ -826,12 +839,12 @@
       }
       .showcase-text h2{
           padding: 10px 10px;
-          font-size: 30px;
+          font-size: 25px;
       }
       
       .showcase-text h3{
           padding: 10px 10px;
-          font-size: 25px;
+          font-size: 23px;
       }
 
       
@@ -888,30 +901,33 @@
      /* end of our mission section */
 
      /* values */
-        .core-values{
-            flex-direction: column;
-            align-content: center;
-        }
+     .core-values{
+        flex-direction: column;
+        text-align: center;
+    }
 
-        .values h2{
-            text-align: center;
-            margin-top: 20px;
-        }
     
-          
+    .values h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+
     
-        .icons h1{
-            padding: 0 10px;
-        }
+      
+
+    .icons h1{
+        padding: 0 20px;
+    }
+    .icons{
+        flex-direction: column;
+    }
     
-        
-        .icons i{
-            position: absolute;
-            margin: 5px -35px;
-            font-size: 35px;
-            color: green;
-        }
-       
+    .icons i{
+        padding: 15px 0;
+        font-size: 35px;
+        color: green;
+    }
+    
      /* end of values */
 
      /* news section */
@@ -994,7 +1010,7 @@
 
         .letter .letter1 input{
             color: black;
-            width: 250px;
+            width: 170px;
             background-color: white;
             border: none;
             outline: none;
@@ -1010,7 +1026,8 @@
         }
 
         .letter p{
-            font-size: 25px;
+            padding: 0 10px;
+            font-size: 18px;
         }
         
         
