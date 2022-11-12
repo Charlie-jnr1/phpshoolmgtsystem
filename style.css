@@ -682,9 +682,6 @@
         
           
     
-        .icons h1{
-            padding: 0 20px;
-        }
         .icons{
             flex-direction: column;
         }
@@ -906,6 +903,7 @@
      .core-values{
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
 
     
@@ -914,18 +912,20 @@
         margin-top: 20px;
     }
 
-    
+    .icon-button a h1{
+        text-align: center;
+        width: 100%;
+        padding: 10px 10px;
+    }
       
 
-    .icons h1{
-        padding: 0 5px;
-    }
     .icons{
         flex-direction: column;
+        width: 100%;
     }
     
     .icons i{
-        padding: 15px 0;
+        padding: 20px 0;
         font-size: 35px;
         color: green;
     }
