@@ -670,19 +670,18 @@
         .showcase-display{
             z-index: 3;
             color: #f5fffa67;
-            padding: 25px 0;
             margin:  auto;
             overflow: visible;
             
           }
           .showcase-text h2{
               padding: 10px 10px;
-              font-size: 30px;
+              font-size: 25px;
           }
           
           .showcase-text h3{
               padding: 10px 10px;
-              font-size: 30px;
+              font-size: 25px;
           }
     
           
