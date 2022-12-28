@@ -11,12 +11,21 @@
     max-width: 1200px;
     margin: 0 30px;
 }
-/* showcase */
+
 .navbar{
-    display: none!important;
+    padding: 0 20px!important;
+    height: 70px;
 }
 
-.showcase{
+.navbar ul li{
+    padding-top: 20px;
+    font-size: 19px;
+    font-style: italic;
+}
+/* showcase */
+
+
+/* .showcase{
     background:rgba(0,0,0,0.8)url(../../images/graduation-caps.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -117,7 +126,7 @@
 .showcase-button a:hover{
   background:#f5fffa67;
   color: white;
-}
+} */
 /* end of showcase */
 
 /* our programs section */
@@ -667,23 +676,6 @@
 
     @media only screen and (min-width : 726px) and (max-width : 900px){
 
-        .showcase-display{
-            z-index: 3;
-            color: #f5fffa67;
-            margin:  auto;
-            overflow: visible;
-            
-          }
-          .showcase-text h2{
-              padding: 10px 10px;
-              font-size: 25px;
-          }
-          
-          .showcase-text h3{
-              padding: 10px 10px;
-              font-size: 25px;
-          }
-    
           
           .showcase-button a{
               display: block;
@@ -804,7 +796,6 @@
     .navbar{
         display: block!important;
         background: rgba(0,0,0,1);
-
     }
     .canvas{
         background: rgba(0,0,0,0.7);
@@ -820,6 +811,10 @@
         justify-content:space-between ;
         color: #fff;
 
+    }
+
+    .title .navbar-toggler{
+        margin-left: 215px;
     }
     
 
